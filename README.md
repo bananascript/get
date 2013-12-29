@@ -1,4 +1,4 @@
-﻿Function for retrieving querystring variables, similar to PHP´s $_GET.
+﻿Super slim and stand-alone function for retrieving querystring variables, similar to PHP´s $_GET.
 
 Usage: GET('myvar').
 
