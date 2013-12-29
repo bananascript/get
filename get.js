@@ -1,0 +1,2 @@
+// Function for retrieving querystring variables. Similar to PHP´s $_GET. Usage: GET('myvar'). Returns: string or array if variable exists, or false if not. By @bananascript 2012.
+(function(v,a,l,u,e){v[a]=function(a){return v[a]?v[a][1]?v[a]:v[a][0]:!1};v=v[a];l=location.search.substr(1).split('&');for(e in l)u=l[e].split('='),a=u[0],u.shift(),(v[a]=v[a]||[]).push(decodeURIComponent(u.join('=').replace(/\+/g,' ')))})(this,'GET');
